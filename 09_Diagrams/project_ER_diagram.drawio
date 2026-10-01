@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EMK_JBDpIsTqi2Cjo4uq">
+    <mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-6" edge="1" parent="1" source="VNQuFzTzPOvdjAOOp52L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="VNQuFzTzPOvdjAOOp52L-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="120" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-4" edge="1" parent="1" source="VNQuFzTzPOvdjAOOp52L-8" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;endFill=0;strokeWidth=2;" target="VNQuFzTzPOvdjAOOp52L-9" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="220" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-7" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;VIRTUAL LEARNING ENIVERONMENT&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-8" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;STUDENT&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-9" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;COURSE&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="610" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-10" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ASSESSMENT&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="350" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VNQuFzTzPOvdjAOOp52L-11" edge="1" parent="1" source="VNQuFzTzPOvdjAOOp52L-8" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startFill=0;endFill=0;strokeWidth=2;" target="VNQuFzTzPOvdjAOOp52L-7" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="130" y="180" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGXyssaK5w4sU9ylraPo-1" edge="1" parent="1" source="VNQuFzTzPOvdjAOOp52L-8" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startFill=0;endFill=0;strokeWidth=2;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VNQuFzTzPOvdjAOOp52L-10" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="633.28" y="192.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

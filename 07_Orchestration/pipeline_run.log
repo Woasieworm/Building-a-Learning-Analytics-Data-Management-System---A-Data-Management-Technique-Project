@@ -1,0 +1,12 @@
+[2026-08-03T12:36:56] === DAG RUN START: schema -> core_load -> vle_load -> warehouse -> quality_report ===
+[2026-08-03T12:36:56] TASK START  : create_schema (depends_on=none)
+[2026-08-03T12:36:57] TASK SKIP   : create_schema — target already satisfied (idempotent skip)
+[2026-08-03T12:36:57] TASK START  : load_core_tables (depends_on=create_schema)
+[2026-08-03T12:36:57] TASK SKIP   : load_core_tables — target already satisfied (idempotent skip)
+[2026-08-03T12:36:57] TASK START  : load_student_vle (depends_on=create_schema)
+[2026-08-03T12:36:57] TASK SKIP   : load_student_vle — target already satisfied (idempotent skip)
+[2026-08-03T12:36:57] TASK START  : build_warehouse (depends_on=load_core_tables,load_student_vle)
+[2026-08-03T12:36:57] TASK SKIP   : build_warehouse — target already satisfied (idempotent skip)
+[2026-08-03T12:36:57] TASK START  : quality_report (depends_on=build_warehouse)
+[2026-08-03T12:37:00] TASK SUCCESS: quality_report — completed in 2.9s (attempt 1)
+[2026-08-03T12:37:00] === DAG RUN COMPLETE ===

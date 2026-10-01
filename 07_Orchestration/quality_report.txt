@@ -1,0 +1,3 @@
+staging_rows=10655280
+cleaned_rows=8459320
+generated_at=2026-08-03T12:37:00.811284
